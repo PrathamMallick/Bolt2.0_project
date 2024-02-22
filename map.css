@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    overflow-y: hidden;
+}
+.nav{
+    height: 90px;
+    display: flex;
+    flex-direction: row;
+    background-color: #541A57;
+}
+.nav a{
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    margin: 17px 15px;
+    padding: 12px;
+    border-radius: 10%;
+}
+.nav a:hover{
+background-color: rgb(198, 67, 198);
+}
+.mapdiv{
+    width: 40%;
+    margin-left:5%;
+    height: 80vh;
+}
+.mapdiv path{
+    fill:bisque;
+    stroke: #212121;
+    stroke-width: 4px;
+    transition: fill 1s;
+}
+.mapdiv path:hover{
+  fill: purple;
+}
+.vertical{
+    height: 80vh;
+    width: 5px;
+    margin-top: 2%;
+    background-color: brown;
+    margin-left: 5%;
+}
+.info{
+    display: flex;
+    flex-direction: row;
+}
+.information{
+    width: 30%;
+    height: 80vh;
+    margin: 2% 5% 0  10%;
+    display: flex;
+    justify-content: center;
+}
+.logo{
+    width: 25%;
+    margin: auto;
+    margin-left: 29%;
+}
+.home{
+    width: 40px;
+    height: 35px;
+}
+.home-div{
+    width: 60px;
+    height: 60px;
+    margin-top: 20px;
+    margin-left: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+.home-div:hover{
+    background-color: aqua;
+}
+.main{
+    font-size: small;
+    width: 70%;
+    height: 75%;
+    background-image: linear-gradient( to top right,#FB7D88,#903DB1);
+    color: #FFECEE;
+    font-weight: 400;
+    border: 2px solid #CF954B;
+    border-radius: 7%;
+    margin-top: 15%;
+    box-shadow: 10px -10px 2px #541A57;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.bg{
+    position: fixed;
+    z-index: -1000;
+    width: 100vw;
+    height: 100vh;
+    overflow-y: hidden;
+    scroll-behavior: unset;
+}
