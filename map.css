@@ -48,6 +48,7 @@ background-color: rgb(198, 67, 198);
 .info{
     display: flex;
     flex-direction: row;
+    overflow: scroll;
 }
 .information{
     width: 30%;

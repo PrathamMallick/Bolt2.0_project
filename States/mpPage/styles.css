@@ -1,0 +1,79 @@
+body{
+    position: relative;
+    height: 85vh;
+    background-color: #470055;
+    background-image: url(bg_group.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.button{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.button h2{
+    color: #E3BA64;
+    background-color: #360749;
+    border-radius: 10%;
+    width: 60px;
+    padding: 8px;
+    border:2px solid #E3BA64;
+    margin: 0 20px;
+}
+a{
+    text-decoration: none;
+}
+.button h2:hover{
+    color: #360749;
+    background-color: #E3BA64;
+    border-radius: 10%;
+    width: 60px;
+    padding: 8px;
+    border:2px solid #360749;
+}
+.logo_img{
+    position: relative;
+    height: 70px;
+    z-index: 5;
+}
+.haryana{
+    color: #E3BA64;
+    position: relative;
+    text-align: center;
+}
+
+#Phulkari{
+    color: #E3BA64;
+    margin-left: 10%;
+}
+.h1{
+    height: 200px;
+    width: 200px;
+}
+.img1 p{
+    color: rgb(184, 185, 187);
+    width: 60%;
+    float: right;
+    margin-right: 20px;
+    font-weight: 550;
+}
+.img1{
+    width: 100%;
+    margin-left: 20px;
+}
+.box1{
+    display: flex;
+}
+.ph1{
+    width:220px;
+    height: 200px;
+    border-radius: 10%;
+    box-shadow: 0 4px 8px 0 rgba(192, 189, 32, 0.2), 0 6px 20px 0 rgba(213, 227, 22, 0.19);
+}
+.ph2{
+    width:220px;
+    height: 200px;
+    border-radius: 10%;
+    box-shadow: 0 4px 8px 0 rgba(192, 189, 32, 0.2), 0 6px 20px 0 rgba(213, 227, 22, 0.19);
+}
