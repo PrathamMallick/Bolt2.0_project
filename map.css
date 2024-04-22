@@ -5,23 +5,23 @@
     text-align: center;
     overflow-y: hidden;
 }
+body{
+    background-image: url("./images/back.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .nav{
     height: 120px;
     display: flex;
     flex-direction: row;
-    background-color: #541A57;
+    align-items: center;
+    z-index: 100;
 }
-.nav a{
-    text-decoration: none;
-    font-size: 25px;
-    color: white;
-    margin: 20px;
-    margin-bottom: 35px;
-    padding: 15px;
+.home1:hover{
+    color: #360749;
+    background-color: #E3BA64;
     border-radius: 10%;
-}
-.nav a:hover{
-background-color: rgb(198, 67, 198);
+    border:2px solid #360749;
 }
 .mapdiv{
     width: 40%;
@@ -48,7 +48,6 @@ background-color: rgb(198, 67, 198);
 .info{
     display: flex;
     flex-direction: row;
-    overflow: scroll;
 }
 .information{
     width: 30%;
@@ -59,8 +58,7 @@ background-color: rgb(198, 67, 198);
 }
 .logo{
     width: 25%;
-    margin: auto;
-    margin-left: 30%;
+    margin-left: 28vw;
 }
 .home{
     width: 40px;
@@ -102,4 +100,17 @@ background-color: rgb(198, 67, 198);
     height: 100vh;
     overflow-y: hidden;
     scroll-behavior: unset;
+}
+.home1{
+    color: #E3BA64;
+    background-color: #360749;
+    border-radius: 10%;
+    border:2px solid #E3BA64;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    margin: 20px;
+    margin-bottom: 35px;
+    padding: 15px;
+    border-radius: 10%;
 }
